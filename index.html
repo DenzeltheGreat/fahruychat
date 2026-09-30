@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>WebRTC Chat</title>
+  <title>Instant WebRTC Chat</title>
   <style>
     body { font-family: sans-serif; }
     #chat { height: 300px; width: 100%; border: 1px solid #ccc; overflow-y: scroll; margin-bottom: 10px; }
@@ -10,18 +10,10 @@
   </style>
 </head>
 <body>
-  <h2>WebRTC Peer-to-Peer Chat</h2>
+  <h2>Instant WebRTC Peer-to-Peer Chat</h2>
   <div id="chat"></div>
   <input id="msg" placeholder="Type message...">
   <button onclick="sendMessage()">Send</button>
-  <br><br>
-  <textarea id="offer" placeholder="Paste Offer here"></textarea>
-  <button onclick="createOffer()">Create Offer</button>
-  <br><br>
-  <textarea id="answer" placeholder="Paste Answer here"></textarea>
-  <button onclick="createAnswer()">Create Answer</button>
-  <br><br>
-  <button onclick="setRemoteAnswer()">Set Remote Answer</button>
   <script src="chat.js"></script>
 </body>
 </html>
